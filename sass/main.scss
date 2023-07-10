@@ -1,0 +1,126 @@
+header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Warownia', sans-serif;
+    .banner {
+        background-color: black;
+        color: white;
+        font-family: 'Inria Sans', sans-serif;
+    }
+    .bg-danger {
+        background-color: rgba(197, 197, 197, 0.199) !important;
+    }
+    .nav-item {
+        margin-right: 100px;
+    }
+    .icon {
+        color: black !important;
+    }
+
+}
+.d-block {
+    margin: auto;
+}
+.galeria {
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+    .container-imagen {
+        display: flex;
+        width: auto;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border-radius: 3px;
+        background: rgba(202, 195, 195, 0.123);
+        .imagen {
+            width: auto;
+            position: relative;
+            height: 250px;
+            margin-bottom: 5px;
+            filter: brightness(100%);
+            transition: filter .3s ease;
+        }
+        .imagen:hover {
+            filter: brightness(60%);
+        }
+        .overlay h3 {
+            color: whitesmoke;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+            }
+        }
+}
+footer {
+    position: static;
+    bottom: 0;
+}
+@media (max-height: 800px)
+{
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+.footer-distributed {
+    background-color: rgba(126, 123, 123, 0.322);
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+    .footer-left .footer-center .footer-right {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .footer-left{
+        width: 30%;
+        h3 {
+            color: black;
+            font: normal 36px 'cookie', cursive;
+            margin: 0;
+            span {
+                color: rosybrown;
+            }
+        }
+        .footer-links {
+            color: #131212;
+            margin: 20px 0 12px;
+            a{
+                display: inline-block;
+                line-height: 1.8;
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+    .footer-company-name {
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+    .footer-center {
+        width: 35%;
+        i {
+            background-color: rgba(241, 142, 158, 0.562);
+            color: #ffff;
+            font-size: 25px;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            text-align: center;
+            margin: 10px 15px;
+            vertical-align: middle;
+        }
+    }
+}
+
+/* indumentaria */

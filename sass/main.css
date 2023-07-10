@@ -1,0 +1,203 @@
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Warownia", sans-serif;
+}
+header .banner {
+  background-color: black;
+  color: white;
+  font-family: "Inria Sans", sans-serif;
+}
+header .bg-danger {
+  background-color: rgba(197, 197, 197, 0.199) !important;
+}
+header .nav-item {
+  margin-right: 100px;
+}
+header .icon {
+  color: black !important;
+} 
+
+.d-block {
+  margin: auto;
+}
+
+.galeria {
+  text-align: center;
+  margin: 20px 0 15px 0;
+  font-weight: 300;
+}
+.galeria .container-imagen {
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  background: rgba(202, 195, 195, 0.123);
+}
+.galeria .container-imagen .imagen {
+  width: auto;
+  position: relative;
+  height: 250px;
+  margin-bottom: 5px;
+  filter: brightness(100%);
+  transition: filter 0.3s ease;
+}
+.galeria .container-imagen .imagen:hover {
+  filter: brightness(60%);
+}
+.galeria .container-imagen .overlay h3 {
+  color: whitesmoke;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 8px rgb(0, 0, 0);
+}
+
+footer {
+  position: static;
+  bottom: 0;
+}
+
+@media (max-height: 800px) {
+  footer {
+    position: static;
+  }
+  header {
+    padding-top: 40px;
+  }
+}
+.footer-distributed {
+  background-color: rgba(126, 123, 123, 0.322);
+  box-sizing: border-box;
+  widows: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+.footer-distributed .footer-left .footer-center .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer-distributed .footer-left {
+  width: 30%;
+}
+.footer-distributed .footer-left h3 {
+  color: black;
+  font: normal 36px "cookie", cursive;
+  margin: 0;
+}
+.footer-distributed .footer-left h3 span {
+  color: rosybrown;
+}
+.footer-distributed .footer-left .footer-links {
+  color: #131212;
+  margin: 20px 0 12px;
+}
+.footer-distributed .footer-left .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+.footer-distributed .footer-company-name {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+.footer-distributed .footer-center {
+  width: 35%;
+}
+.footer-distributed .footer-center i {
+  background-color: rgba(241, 142, 158, 0.562);
+  color: white;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+/* indumentaria *//*# sourceMappingURL=main.css.map */
+
+.fotos {
+  padding-left: 35%;
+}
+.ft1 {
+  width: 50%;
+  height: 50%;
+}
+.ft2 {
+  width: 50%;
+  height: 50%;
+}
+.ft3 {
+  width: 50%;
+  height: 50%;
+}
+.ft4 {
+  width: 50%;
+  height: 50%;
+}
+
+/* Contacto */
+section {
+  background-image: url(../image/fondo-contacto.jpg);
+}
+section article form {
+  width: 450px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+section article form h2 {
+  color: black;
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+section article form input,textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: none;
+
+}
+
+/* locales */
+.local1 {
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
+.local2 {
+  text-align: center;
+}
+
+/* ayuda */
+.titulo2 {
+  text-align: center;
+}
+
+ol {
+  text-align: center;
+}
+
+ol li {
+  font-size: 20px;
+  font-style: oblique;
+}
